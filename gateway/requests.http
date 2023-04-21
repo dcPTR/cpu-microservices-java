@@ -1,0 +1,59 @@
+GET http://localhost:8080/api/laptops
+
+###
+
+GET http://localhost:8080/api/processors/1/laptops
+
+###
+
+GET http://localhost:8080/api/processors
+
+###
+
+POST http://localhost:8080/api/processors
+Content-Type: application/json
+
+{
+  "brand": "Intel",
+  "name": "i7-1185g7",
+  "cpuClockSpeed": 4.9
+}
+
+###
+
+POST http://localhost:8080/api/processors/3/laptops
+Content-Type: application/json
+
+{
+  "brand": "Dell",
+  "model": "Inspiron 5406",
+  "screenSize": 15.6,
+  "ram": 16,
+  "processorId": 1
+}
+
+###
+
+DELETE http://localhost:8080/api/processors/1/laptops/3
+
+###
+
+GET http://localhost:8080/api/processors/2/laptops
+
+###
+
+DELETE http://localhost:8080/api/processors/2
+
+###
+
+GET http://localhost:8080/api/processors/3
+
+###
+
+GET http://localhost:8080/api/processors
+
+###
+
+GET http://localhost:8080/api/laptops
+
+###

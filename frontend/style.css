@@ -1,0 +1,140 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: #548BA1;
+    padding: 20px 0;
+}
+
+header h1,
+header h3 {
+    color: #ffffff;
+    margin: 0;
+}
+
+.navigation-bar {
+    background-color: #214753;
+    padding: 10px 0;
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar li {
+    display: inline-block;
+}
+
+.navigation-bar a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navigation-bar a:hover {
+    background-color: #548BA1;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.text--justified {
+    text-align: justify;
+}
+
+.text--justified header {
+    text-align: center;
+}
+
+.data-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.data-table th {
+    background-color: #214753;
+    color: #ffffff;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.ui-button {
+    background-color: #214753;
+    color: #ffffff;
+    border: none;
+    padding: 6px 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ui-button:hover {
+    background-color: #548BA1;
+}
+
+.ui-control {
+    display: inline-block;
+}
+
+.link-cell {
+    background-color: #214753;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.link-cell:hover {
+    background-color: #548BA1;
+}
+
+.button-cell {
+    background-color: #214753;
+    color: #ffffff;
+    border: none;
+    padding: 6px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.button-cell:hover {
+    background-color: #548BA1;
+}
+
+.text-cell {
+    font-size: 14px;
+    color: #333333;
+    padding: 8px;
+}
+

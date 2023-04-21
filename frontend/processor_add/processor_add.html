@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Architektury Usług Internetowych</title>
+    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="processor_add.css"/>
+    <script src="../script.js" defer="defer"></script>
+    <script type="module" src="processor_add.js" defer="defer"></script>
+    <script src="../load-header.js" defer></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <div id="header-container"></div>
+
+<!--        private String name;-->
+<!--        double cpuClockSpeed; -->
+<!--        String brand;-->
+
+        <section class="main-section">
+            <article>
+                <header><h2>Dodaj nowy procesor</h2></header>
+                <form class="processor-form" id="infoForm">
+                    <label for="brand">Marka:</label>
+                    <input class="ui-control ui-input" id="brand" name="brand"/>
+                    <label for="name">Nazwa:</label>
+                    <input class="ui-control ui-input" id="name" name="name"/>
+                    <label for="cpuClockSpeed">Szybkość zegara procesora (w GHz):</label>
+                    <input class="ui-control ui-input" id="cpuClockSpeed" name="cpuClockSpeed" type="number" step="0.1"/>
+                    <input class="ui-control ui-button" type="submit" name="Create" value="Stwórz"/>
+                </form>
+            </article>
+        </section>
+    </div>
+</body>
+</html>

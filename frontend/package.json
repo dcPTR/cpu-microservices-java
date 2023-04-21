@@ -1,0 +1,12 @@
+{
+  "name": "aui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server -p 8083 -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

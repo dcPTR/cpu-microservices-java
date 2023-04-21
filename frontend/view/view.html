@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Architektury Usług Internetowych</title>
+    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="view.css"/>
+    <script src="../script.js" defer="defer"></script>
+    <script type="module" src="view.js" defer="defer"></script>
+    <script src="../load-header.js" defer></script>
+</head>
+<body>
+    <div class="container">
+
+        <div id="header-container"></div>
+
+        <section class="main-section">
+        <article class="text--justified">
+            <header><h2>Laptopy</h2></header>
+            <section>
+                <h3>Szczegóły</h3>
+                <div class="details-grid" >
+                    <label for="name" class="text-cell">Nazwa: </label><span id="name" class="text-cell">name</span></br>
+                    <label for="cpuClockSpeed" class="text-cell">Szybkość zegara procesora: </label><span id="cpuClockSpeed" class="text-cell">clock speed</span><span class="text-cell"> GHz</span>
+                </div>
+            </section>
+            <section>
+                <table class="data-table">
+                    <thead>
+                    <tr>
+                        <th>Nazwa</th>
+                        <th>Edytuj</th>
+                        <th>Usuń</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                    <tr>
+                        <td><img src="#"/></td>
+                        <td>Nazwa</td>
+                        <td><a href="#">Pokaż</a></td>
+                        <td><a href="#">Edytuj</a></td>
+                        <td>
+                            <button class="ui-button ui-control">Usuń</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+            <div id="createLink"></div>
+        </article>
+    </section>
+</body>
+</html>

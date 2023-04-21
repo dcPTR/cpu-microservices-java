@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Architektury Usług Internetowych</title>
+    <link rel="stylesheet" href="../style.css"/>
+    <script src="../script.js" defer="defer"></script>
+    <script type="module" src="list.js" defer="defer"></script>
+    <script src="../load-header.js" defer></script>
+</head>
+<body>
+<div class="container">
+
+    <div id="header-container"></div>
+
+    <section class="main-section">
+        <article class="text--justified">
+            <header><h2>Procesory</h2></header>
+            <table class="data-table">
+                <thead>
+                <tr>
+                    <th>Nazwa</th>
+                    <th>Pokaż</th>
+                    <th>Edytuj</th>
+                    <th>Usuń</th>
+                </tr>
+                </thead>
+                <tbody id="tableBody">
+                <tr>
+                    <td>name</td>
+                    <td><a href="#">Pokaż</a></td>
+                    <td><a href="#">Edytuj</a></td>
+                    <td>
+                        <button class="ui-button ui-control">Usuń</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <div id="createLink"></div>
+        </article>
+    </section>
+</div>
+</body>
+</html>

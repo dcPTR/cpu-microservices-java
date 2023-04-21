@@ -1,0 +1,35 @@
+GET http://localhost:8082/api/laptops
+
+###
+
+GET http://localhost:8082/api/processors
+
+###
+
+POST http://localhost:8082/api/laptops
+Content-Type: application/json
+
+{
+  "brand": "Dell",
+  "model": "Inspiron 5406",
+  "screenSize": 15.6,
+  "ram": 16,
+  "processorId": 1
+}
+
+###
+
+PUT http://localhost:8082/api/laptops/4
+Content-Type: application/json
+
+{
+  "ram": 16
+}
+
+###
+
+DELETE http://localhost:8082/api/laptops/4
+
+###
+
+GET http://localhost:8082/api/laptops

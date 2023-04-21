@@ -1,0 +1,28 @@
+GET http://localhost:8081/api/processors
+
+###
+
+GET http://localhost:8081/api/processors/1
+
+###
+
+POST http://localhost:8081/api/processors
+Content-Type: application/json
+
+{
+  "brand": "Intel",
+  "name": "i7-1165g7",
+  "cpuClockSpeed": 4.7
+}
+
+###
+
+DELETE http://localhost:8081/api/processors/1
+
+###
+
+DELETE http://localhost:8081/api/processors/2
+
+###
+
+GET http://localhost:8081/api/processors
